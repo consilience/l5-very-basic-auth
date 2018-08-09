@@ -1,5 +1,5 @@
 {
-    "name": "olssonm/l5-very-basic-auth",
+    "name": "consilience/l5-api-basic-auth",
     "description": "Stateless HTTP basic auth without the need for a database. For Laravel 5",
     "keywords": [
         "olssonm",
@@ -26,12 +26,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Olssonm\\VeryBasicAuth\\": "src"
+            "Consilience\\ApiBasicAuth\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Olssonm\\VeryBasicAuth\\Test\\": "tests"
+            "Consilience\\ApiBasicAuth\\Test\\": "tests"
         }
     },
     "scripts": {
@@ -43,7 +43,7 @@
         },
         "laravel": {
             "providers": [
-                "Olssonm\\VeryBasicAuth\\VeryBasicAuthServiceProvider"
+                "Consilience\\ApiBasicAuth\\ApiBasicAuthServiceProvider"
             ]
         }
     },
